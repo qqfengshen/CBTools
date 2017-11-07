@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/qqfengshen/CBTools'
   # s.license      = "MIT"
   s.license      = { :type => 'BSD', :text => license }
-  s.author             = { "qqfengshen" => "378574271@qq.com" }
-  s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/qqfengshen/CBTools.git", :tag => "v#{s.version}", :submodules => true }
-  s.source_files  = "CBTools.{h,m}"
+  s.author             = { 'qqfengshen' => '378574271@qq.com' }
+  s.platform     = :ios, '8.0'
+  s.source       = { :git => 'https://github.com/qqfengshen/CBTools.git', :tag => "v#{s.version}", :submodules => true }
+  s.source_files  = 'CBTools.{h,m}'
   # s.public_header_files = 'CBTools.h'
-  s.framework  = "UIKit"
+  s.framework  = 'UIKit'
   s.requires_arc = true
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = '8.0'
 
 end
